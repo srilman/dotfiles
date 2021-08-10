@@ -1,0 +1,134 @@
+command_timeout = 250
+
+format = """
+$username\
+$kubernetes\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$deno\
+$golang\
+$helm\
+$julia\
+$nodejs\
+$python\
+$rust\
+$conda\
+$env_var\
+$custom\
+$cmd_duration\
+$line_break\
+$jobs\
+$status\
+$character"""
+
+[aws]
+disabled = true
+
+[battery]
+disabled = true
+
+[cmake]
+disabled = true
+
+[crystal]
+disabled = true
+
+[directory]
+truncation_length = 0
+fish_style_pwd_dir_length = 1
+truncation_symbol = "…/"
+read_only = " "
+
+[docker_context]
+disabled = true
+
+[dotnet]
+disabled = true
+
+[elixir]
+disabled = true
+
+[elm]
+disabled = true
+
+[erlang]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[git_branch]
+symbol = " "
+
+[hostname]
+disabled = true
+
+[kotlin]
+disabled = true
+
+[lua]
+disabled = true
+
+[nim]
+disabled = true
+
+[nix_shell]
+disabled = true
+
+[nodejs]
+symbol = "🤖 "
+
+[openstack]
+disabled = true
+
+[package]
+disabled = true
+
+[perl]
+disabled = true
+
+[php]
+disabled = true
+
+[purescript]
+disabled = true
+
+[python]
+symbol = " "
+
+[rlang]
+disabled = true
+
+[red]
+disabled = true
+
+[ruby]
+disabled = true
+
+[rust]
+symbol = " "
+
+[scala]
+disabled = true
+
+[singularity]
+disabled = true
+
+[swift]
+disabled = true
+
+[terraform]
+disabled = true
+
+[vagrant]
+disabled = true
+
+[vcsh]
+disabled = true
+
+[zig]
+disabled = true
+
